@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Rust_Map_checker</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LZ4">
+      <HintPath>library\Rust.World\Assets\Plugins\LZ4\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>library\Rust.World\Assets\Plugins\Protobuf\protobuf-net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+Library
+ProjectSettings
+Build
+Temp
+Packages
+.vs
+*.csproj
+*.sln
+bin
+obj
